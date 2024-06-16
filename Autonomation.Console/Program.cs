@@ -3,35 +3,28 @@
 using Autonomation.Core;
 
 var input = "";
-while (true)
+if (args.Length == 1)
+    input = args[0];
+
+while (input != "q")
 {
-    if (args.Length == 0)
+    while (input == "")
     {
-        while (input == "")
+        Console.WriteLine("Enter a string to partition into palindromes (q quits):");
+        input = Console.ReadLine();
+    }
+
+    if (input != "q")
+    {
+        var partitions = PalindromeService.CommaSeparatedPartitions(input);
+        Console.WriteLine($"The palindromic partitions of {input} are:");
+        foreach (var partition in partitions)
         {
-            Console.WriteLine("Enter a string to partition into palindromes (q quits):");
-            input = Console.ReadLine();
+            Console.WriteLine(partition);
         }
-    }
-    else
-    {
-        input = args[0];
-    }
 
-    if (input == "q")
-    {
-        Console.WriteLine("Quitting...");
-        break;
+        input = "";
     }
-
-    var partitions = PalindromeService.CommaSeparatedPartitions(input);
-    Console.WriteLine($"The palindromic partitions of {input} are:");
-    foreach (var partition in partitions)
-    {
-        Console.WriteLine(partition);
-    }
-
-    input = "";
 }
 
 Console.ForegroundColor = ConsoleColor.Green;
