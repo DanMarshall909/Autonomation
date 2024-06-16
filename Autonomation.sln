@@ -4,7 +4,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Autonomation.Core", "Autono
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Autonomation.Test", "Autonomation.Test\Autonomation.Test.csproj", "{676A5AA3-07B1-4D27-B127-2E7608D4CCAE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Autonomation.Console", "Autonomation.Console\Autonomation.Console.csproj", "{503F130D-25B4-450A-A7A3-4A7E6FCCE5A5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Autonomation.Console", "Autonomation.Console\Autonomation.Console.csproj", "{4C99EECF-0D1D-4582-B154-A88332205C09}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -20,9 +20,9 @@ Global
 		{676A5AA3-07B1-4D27-B127-2E7608D4CCAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{676A5AA3-07B1-4D27-B127-2E7608D4CCAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{676A5AA3-07B1-4D27-B127-2E7608D4CCAE}.Release|Any CPU.Build.0 = Release|Any CPU
-		{503F130D-25B4-450A-A7A3-4A7E6FCCE5A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{503F130D-25B4-450A-A7A3-4A7E6FCCE5A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{503F130D-25B4-450A-A7A3-4A7E6FCCE5A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{503F130D-25B4-450A-A7A3-4A7E6FCCE5A5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C99EECF-0D1D-4582-B154-A88332205C09}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C99EECF-0D1D-4582-B154-A88332205C09}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C99EECF-0D1D-4582-B154-A88332205C09}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C99EECF-0D1D-4582-B154-A88332205C09}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
