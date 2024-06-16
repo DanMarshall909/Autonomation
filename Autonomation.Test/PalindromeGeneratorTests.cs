@@ -5,8 +5,8 @@ namespace Autonomation.Test;
 
 public class PalindromeGeneratorTests
 {
-    [Fact(DisplayName = "Generate palindrome of length 1")]
-    public void generate_palindrome_of_length_1()
+    [Fact(DisplayName = "Generate palindrome partitions of length 1")]
+    public void generate_palindrome_partitions_of_length_1()
     {
         var palindromeGenerator = new PalindromeGenerator();
         
@@ -15,11 +15,11 @@ public class PalindromeGeneratorTests
     }
     
     [Fact(DisplayName = "Generate palindrome of length 2")]
-    public void generate_palindrome_of_length_2()
+    public void generate_palindrome_partitions_of_length_2()
     {
         var palindromeGenerator = new PalindromeGenerator();
         
         var result = palindromeGenerator.Generate("aa");
-        result.Should().BeEquivalentTo(new List<string>{"aa"});
+        result.Should().BeEquivalentTo(new List<string>{"aa", "a,a"});
     }
 }
